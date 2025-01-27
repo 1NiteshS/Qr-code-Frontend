@@ -8,7 +8,7 @@ const DataPage = () => {
     useEffect(() => {
         const fetchData = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/api/information/get');
+            const response = await axios.get('https://qr-code-backend-4z2z.onrender.com/api/information/get');
             
             setData(response.data.data);
         } catch (error) {

@@ -38,7 +38,7 @@ const ScanPage = () => {
                 };
 
                 // Send parsed data to the backend
-                await axios.post("http://localhost:5000/api/information/add",parsedData);
+                await axios.post("https://qr-code-backend-4z2z.onrender.com/api/information/add",parsedData);
 
                 setMessage("Data saved successfully!");
             } catch (error) {
