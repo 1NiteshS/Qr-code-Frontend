@@ -40,7 +40,7 @@ const DataPage = () => {
                 <tbody>
                 {data.map((item, index) => (
                     <tr key={index}>
-                    <td>{item.id}</td>
+                    <td>{item._id}</td>
                     <td>{item.name}</td>
                     <td>{item.position}</td>
                     <td>{item.organization}</td>
